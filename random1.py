@@ -1,6 +1,9 @@
 import random
 
-r = random.randint(1, 100)
+limit = input('請輸入最大值整數範圍: ')
+limit = int(limit)
+
+r = random.randint(1, limit)
 count = 0
 while True:
 	count += 1
